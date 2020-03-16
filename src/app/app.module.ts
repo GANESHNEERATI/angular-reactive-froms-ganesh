@@ -5,12 +5,12 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from   './app.component';
 
-import { NameEditorComponent } from './name-editor/name-editor.component';
+
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,ReactiveFormsModule ],
-  declarations: [ AppComponent, NameEditorComponent, ProfileEditorComponent ],
+  declarations: [ AppComponent, ProfileEditorComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
