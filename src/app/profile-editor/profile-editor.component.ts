@@ -9,7 +9,12 @@ export class ProfileEditorComponent implements OnInit {
 
   profileForm=new FormGroup({
     first_name:new FormControl(''),
-    last_name:new  FormControl('')
+    last_name:new  FormControl(''),
+    address:new FormGroup({
+
+
+      
+    })
   }
 
 
