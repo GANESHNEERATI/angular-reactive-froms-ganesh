@@ -11,10 +11,16 @@ export class ProfileEditorComponent implements OnInit {
     first_name:new FormControl(''),
     last_name:new  FormControl(''),
     address:new FormGroup({
+      street:new FormControl(''),
+      City:new FormControl(''),
+      state:new FormControl(''),
+      country:new FormControl(''),
+      zip:new FormControl(''),
 
 
-      
-    })
+
+
+    }),
   }
 
 
